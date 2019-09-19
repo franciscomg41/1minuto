@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Un minuto para ganar</title>
+	<link rel="stylesheet" href="./index.css">
+	<script src="./index.js"></script>
+</head>
+<body>
+	<div id="principal">
+	<h5>Un minuto para ganar</h5>
+		<div id="numero">
+			?
+		</div>
+		<div id="divNumeros">
+			<p id="tip">Selecciona el número más cercano al número superior</p>
+			<div id="div1" onclick="check(this);">
+				?
+			</div>
+			<div id="div2" onclick="check(this);">
+				?
+			</div>
+			<div id="div3" onclick="check(this);">
+				?
+			</div>
+			<div id="div4" onclick="check(this);">
+				?
+			</div>
+		</div>
+		<div id="marcador">
+			<div id="verde">
+				0
+			</div>
+			<div id="rojo">
+				0
+			</div>
+		</div>
+		<div id="tiempo">
+			1:00
+		</div>
+		<input id="boton" type="submit" value="START" onclick="start();">
+	</div>
+</body>
+</html>
